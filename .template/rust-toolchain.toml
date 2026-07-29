@@ -1,0 +1,7 @@
+[toolchain]
+channel = "nightly-2026-06-01"
+components = ["rust-src"]
+targets = [
+    "x86_64-win7-windows-gnu",
+    "i686-win7-windows-gnu"
+]

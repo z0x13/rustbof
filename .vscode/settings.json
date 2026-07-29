@@ -1,0 +1,9 @@
+{
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.linkedProjects": [
+        "examples/env/Cargo.toml",
+        "examples/ipconfig/Cargo.toml",
+        "examples/whoami/Cargo.toml",
+        "Cargo.toml"
+    ]
+}

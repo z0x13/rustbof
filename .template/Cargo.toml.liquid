@@ -1,0 +1,17 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies.rustbof]
+git = "https://github.com/joaoviictorti/rustbof.git"
+
+[profile.release]
+lto = true
+strip = true
+opt-level = "z"
+panic = "abort"
+codegen-units = 1

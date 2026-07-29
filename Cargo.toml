@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/rustbof",
+    "crates/rustbof-derive",
+]
+exclude = [
+    "examples/env",
+    "examples/ipconfig",
+    "examples/whoami",
+    ".template",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["João Victor"]
+repository = "https://github.com/joaoviictorti/rustbof"
+license = "MIT OR Apache-2.0"
