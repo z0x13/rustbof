@@ -3,7 +3,7 @@ git-fetch-with-cli = true
 
 [unstable]
 build-std = ["core", "alloc", "panic_abort", "compiler_builtins"]
-build-std-features = ["panic_immediate_abort", "compiler-builtins-mem"]
+build-std-features = ["compiler-builtins-mem"]
 
 [target.'cfg(windows)']
 rustflags = [

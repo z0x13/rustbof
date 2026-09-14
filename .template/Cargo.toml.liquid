@@ -1,3 +1,5 @@
+cargo-features = ["panic-immediate-abort"]
+
 [package]
 name = "{{project-name}}"
 version = "0.1.0"
@@ -13,5 +15,5 @@ rustbof = { git = "https://github.com/joaoviictorti/rustbof.git" }
 lto = true
 strip = true
 opt-level = "z"
-panic = "abort"
+panic = "immediate-abort"
 codegen-units = 1
